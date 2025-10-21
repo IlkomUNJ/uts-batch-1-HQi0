@@ -10,4 +10,8 @@ data class Contact(
     val email: String
 )
 
-val contactList = mutableStateListOf<Contact>()
+class ContactRep {
+    companion object {
+        val contactList = mutableStateListOf<Contact>()
+    }
+}
